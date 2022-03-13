@@ -1,0 +1,19 @@
+* {
+    font-family: monospace;
+}
+
+.header {
+    width: 100%;
+    background-color: yellow;
+    display: flex
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-list {
+    list-style: none
+}
