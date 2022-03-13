@@ -1,19 +1,33 @@
 * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
     font-family: monospace;
+    font-size: 20px;
+    background-color: tan;
+    color: black;
 }
 
-.header {
+header, footer {
+    height: 50px;
     width: 100%;
-    background-color: yellow;
-    display: flex
+    line-height: 50px;
+    background-color: olive;
 }
 
-.nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+nav {
+    text-align: right;
 }
 
-.nav-list {
-    list-style: none
+li {
+    display: inline;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+main {
+    display: 100vh;
 }
