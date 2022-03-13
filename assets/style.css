@@ -5,29 +5,35 @@
 
 body {
     position: relative;
-    font-family: monospace;
+    font-family: monospace, sans-serif;
     font-size: 20px;
-    background-color: tan;
-    color: black;
-}
+    background-color: #c75412;
+    color: #4F4846;
+  }
 
-header, footer {
-    height: 50px;
-    width: 100%;
-    line-height: 50px;
-    background-color: olive;
-}
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 1%;
+      background-color: tan;
+  }
+  .nav-links {
+    list-style: none;
+  }
 
-nav {
-    text-align: right;
-}
+  .nav-links li {
+      display: inline-flex;
+      flex-direction: flex-end;
+  }
 
-li {
-    display: inline;
-    padding: 10px 10px;
-    text-decoration: none;
-}
 
-main {
-    display: 100vh;
-}
+
+
+  
+
+ 
+
+
+
+
