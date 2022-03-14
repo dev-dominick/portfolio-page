@@ -9,19 +9,28 @@ body {
     font-size: 20px;
     background-color: #c75412;
     color: #4F4846;
+    min-height: 100vh;
   }
 
-  header {
+
+  header, footer {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 10px 1%;
+      padding: 5px 1%;
       background-color: tan;
   }
 
 li, a {
     color: white;
     text-decoration: none;
+}
+
+
+.header-title {
+    background-color: #35bcbf;
+    margin: 5px;
+    padding: 5px;
 }
 
   .nav-links {
