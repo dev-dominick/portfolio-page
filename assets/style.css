@@ -18,6 +18,12 @@ body {
       padding: 10px 1%;
       background-color: tan;
   }
+
+li, a {
+    color: white;
+    text-decoration: none;
+}
+
   .nav-links {
     list-style: none;
   }
@@ -25,7 +31,20 @@ body {
   .nav-links li {
       display: inline-flex;
       flex-direction: flex-end;
+      padding: 0px 20px;
   }
+
+  .nav-links li a {
+      transition: all 0.3s ease 0s;
+  }
+
+  .nav-links li a:hover {
+    color: olive;
+    text-decoration: underline;
+}
+
+
+
 
 
 
