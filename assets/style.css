@@ -11,6 +11,9 @@ body {
     color: white;
   }
 
+  h1, h2 {
+  margin: 20px;
+  }
 
  .hero {
      height: 300px;
@@ -21,12 +24,17 @@ body {
      background-position: center;
  }
 
-  .header, .footer {
+  .header {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 5px 1%;
       background-color: #393e46;
+  }
+
+  .footer {
+      position: relative;
+      bottom: 0;
   }
 
 li, a {
@@ -59,6 +67,37 @@ li, a {
   .nav-links li a:hover {
     color: olive;
     text-decoration: underline;
+}
+
+.about-me {
+    display: flex;
+}
+
+.about-me-p {
+    display: flex ;
+    justify-content: flex-end;
+    align-items: right;
+}
+
+aside {
+    display: flex;
+    width: 100%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    
+}
+
+.section-about-me {
+    border: 1px black solid;
+    width: 100vw;
+    height: 20vh;
+}
+
+h2 {
+    float: left;
+    border-right: 3px black solid;
+    border-right-width: 10px;
 }
 
 
