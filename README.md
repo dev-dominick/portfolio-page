@@ -18,10 +18,8 @@ N/A
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
+https://dev-dominick.github.io/portfolio-page/
  
 ![alt text](./assets/portfolio-1600px.png)
 ![alt text](./assets/portfolio-992px.png)
