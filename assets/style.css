@@ -67,10 +67,18 @@ img {
     margin-left: auto;
 }
 
+#img-label {
+    position: absolute;
+}
+
 .project-img {
     display: block;
     justify-content: center;
     margin: auto;
+}
+
+.img-text {
+    color: black;
 }
 
 #about-me, #projects, #contacts {
