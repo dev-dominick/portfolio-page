@@ -1,3 +1,5 @@
+/* targeted overall elements */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +17,7 @@ body {
   margin: 20px;
   }
 
+  /* adjustments for my hero img */
   .hero {
     height: 300px;
     width: 100%;
@@ -24,6 +27,7 @@ body {
     background-position: center;
 }
 
+/* adjustments for the header */
  .header {
      display: flex;
      justify-content: space-between;
@@ -32,7 +36,7 @@ body {
      background-color: #393e46;
  }
 
-
+/* removed bullet points for list items */
 
 li, a {
    color: white;
@@ -44,12 +48,14 @@ li, a {
    list-style: none;
  }
 
+ /* adjustments for nav links */
  .nav-links li {
      display: inline-flex;
      flex-direction: flex-end;
      padding: 0px 20px;
  }
 
+ /* set a hover effect of olive over nav links */
  .nav-links li a {
      transition: all 0.3s ease 0s;
  }
@@ -127,7 +133,7 @@ img {
     margin: 10px 10px;
 }
 
-
+/* adjusted screen contents of web page at certain screen widths */
 
 @media screen and (max-width: 992px) {
     .header {
