@@ -15,59 +15,102 @@ body {
   margin: 20px;
   }
 
- .hero {
-     height: 300px;
-     width: 100%;
-     margin-bottom: 25px;
-     background-image: url(./nasa-Q1p7bh3SHj8-unsplash.jpg);
-     background-size: cover;
-     background-position: center;
+  .hero {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(./nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+ .header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 5px 1%;
+     background-color: #393e46;
  }
 
-  .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 5px 1%;
-      background-color: #393e46;
-  }
 
-  .footer {
-      position: relative;
-      bottom: 0;
-  }
 
 li, a {
-    color: white;
-    text-decoration: none;
+   color: white;
+   text-decoration: none;
+}
+
+.nav-links {
+   list-style: none;
+ }
+
+ .nav-links li {
+     display: inline-flex;
+     flex-direction: flex-end;
+     padding: 0px 20px;
+ }
+
+ .nav-links li a {
+     transition: all 0.3s ease 0s;
+ }
+
+ .nav-links li a:hover {
+   color: olive;
+   text-decoration: underline;
+}
+
+img {
+    width: 100%;
 }
 
 
 /* .header-title {
-    position: relative;
-    background-color: #35bcbf;
-    margin: 5px;
-    padding: 5px;
+   position: relative;
+   background-color: #35bcbf;
+   margin: 5px;
+   padding: 5px;
 } */
 
-  .nav-links {
-    list-style: none;
-  }
 
-  .nav-links li {
-      display: inline-flex;
-      flex-direction: flex-end;
-      padding: 0px 20px;
-  }
 
-  .nav-links li a {
-      transition: all 0.3s ease 0s;
-  }
 
-  .nav-links li a:hover {
-    color: olive;
-    text-decoration: underline;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.main {
+    display: flex;
+    flex-wrap: row;
 }
+
+.main {
+    flex-basis: 20%;
+}
+
+.side {
+    flex-basis: 80%;
+    
+
+
+}
+
 
 .about-me {
     display: flex;
@@ -84,7 +127,7 @@ aside {
     width: 100%;
     padding-left: .5rem;
     margin-left: .5rem;
-    float: right;
+    float: left;
     
 }
 
@@ -99,6 +142,18 @@ h2 {
     border-right: 3px black solid;
     border-right-width: 10px;
 }
+
+
+
+
+
+
+
+
+.footer {
+    position: relative;
+    bottom: 0px;
+} */
 
 
 
