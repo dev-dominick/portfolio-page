@@ -123,6 +123,51 @@ img {
 
 
 
+@media screen and (max-width: 992px) {
+    .header {
+      flex-flow: column wrap;
+    }
+    #about-me {
+        flex-flow: column wrap;
+    }
+    #projects {
+        flex-flow: column wrap;
+    }
+    #contacts {
+        flex-flow: column wrap;
+    }
+    h2 {
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .header {
+      flex-flow: column wrap;
+    }
+    #about-me {
+        flex-flow: column wrap;
+    }
+    #projects {
+        flex-flow: column wrap;
+    }
+    #contacts {
+        flex-flow: column wrap;
+    }
+    h2 {
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    img {
+        width: 75%;
+    }
+    
+  }
+
+
+
 
 
 
