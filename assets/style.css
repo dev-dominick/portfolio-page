@@ -136,9 +136,27 @@ img {
     #contacts {
         flex-flow: column wrap;
     }
+
+    #about-me-p {
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
     h2 {
         margin: auto;
         padding-bottom: 20px;
+    }
+    .footer-a {
+        justify-content: space-between;
+        }
+
+    #contacts {
+        margin-right: 25%;
+        
+    }
+
+    .contact-links {
+        margin: auto;
     }
     
   }
@@ -156,6 +174,7 @@ img {
     #contacts {
         flex-flow: column wrap;
     }
+
     h2 {
         margin: auto;
         padding-bottom: 20px;
