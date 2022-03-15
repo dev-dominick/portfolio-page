@@ -65,6 +65,7 @@ li, a {
    text-decoration: underline;
 }
 
+/* controls flow of portfolio img */
 img {
     display: flex;
     flex-direction: row;
