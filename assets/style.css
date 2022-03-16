@@ -3,21 +3,27 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    position: relative;
+    
     font-family: "monospace", sans-serif;
-    font-size: 20px;
+    line-height: 1.5;
+    /* font-size: 20px; */
     background-color: #393e46;
     color: white;
+    margin: 0;
+    padding: 0;
   }
 
-  h1, h2 {
-  margin: 20px;
-  }
+  h1
 
-  /* adjustments for my hero img */
+  h2 {
+  margin: 0px;
+  }
+/* 
+  
   .hero {
     height: 300px;
     width: 100%;
@@ -25,11 +31,13 @@ body {
     background-image: url(./nasa-Q1p7bh3SHj8-unsplash.jpg);
     background-size: cover;
     background-position: center;
-}
+} */
 
 /* adjustments for the header */
- .header {
+ header {
      display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
      justify-content: space-between;
      align-items: center;
      padding: 5px 1%;
@@ -37,47 +45,149 @@ body {
  }
 
 /* removed bullet points for list items */
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
-li, a {
+nav a {
    color: white;
    text-decoration: none;
    list-style-type: none;
+   transition: all 0.3s ease 0s;
+   margin-right: 10px;
 }
 
-.nav-links {
+  /* adjustments for my hero img */
+  .hero {
+    min-height: 30vh;
+    background-image: url(./nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+main {
+    max-width: 89%;
+    margin: 20px auto 45px auto;
+}
+
+.section-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 25px 0;
+    padding: 10px 0;
+
+}
+
+.section-area h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid olive;
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.section-area div {
+    flex: 0 0 77%;
+}
+
+.section-area p {
+    margin-bottom: 20px;
+}
+
+.div-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.box-item {
+    border: 5px solid olive;
+    background-color: white;
+    color: white;
+    min-height: 150px ;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s ;
+    font-size: 0.9rem;
+}
+
+.box-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.box-item:hover {
+    background-color: white;
+
+}
+
+.box-item div {
+    background-color: black;
+    padding: 8px 10px;
+    
+}
+
+.box-item h3 {
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+/* .nav-links {
    list-style: none;
- }
+ } */
 
  /* adjustments for nav links */
- .nav-links li {
+ /* .nav-links li {
      display: inline-flex;
      flex-direction: flex-end;
      padding: 0px 20px;
- }
+ } */
 
  /* set a hover effect of olive over nav links */
- .nav-links li a {
+ /* nav a {
      transition: all 0.3s ease 0s;
- }
+ } */
 
- .nav-links li a:hover {
+ nav a:hover {
    color: olive;
    text-decoration: underline;
+   background-size: 100% 100%;
 }
 
 /* controls flow of portfolio img */
-img {
+/* img {
     display: flex;
     flex-direction: row;
     width: 750px;
     margin-right: auto;
     margin-left: auto;
-}
-
+} */
+/* 
 #img-label {
     position: absolute;
-}
-
+} */
+/* 
 .project-img {
     display: block;
     justify-content: center;
@@ -106,7 +216,7 @@ img {
 #about-me-p {
     margin-right: 100px;
     margin-left: 250px;
-}
+} */
 
 #contacts {
     display: flex;
@@ -135,7 +245,7 @@ img {
 }
 
 /* adjusted screen contents of web page at certain screen widths */
-
+/* 
 @media screen and (max-width: 992px) {
     .header {
       flex-flow: column wrap;
@@ -196,7 +306,7 @@ img {
         width: 75%;
     }
     
-  }
+  } */
 
 
 

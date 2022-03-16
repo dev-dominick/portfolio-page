@@ -16,50 +16,83 @@
   <!-- this header contains navbar too -->
   <!-- navbar links are linked to sections  -->
 
-  <header class="header">
-      <h1 class="header-title">Dominick's Portfolio</h1>
-      <nav class="nav">
-        <ul class="nav-links">
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contacts">Contact Me</a></li>
-          <li><a href="#">Resume</a></li>
-        </ul>
+  <header>
+      <h1>Dominick's Portfolio</h1>
+      <nav>
+        
+          <a href="#about-me">About Me</a>
+          <a href="#projects">Projects</a>
+          <a href="#contacts">Contact Me</a>
+          <a href="./assets/resume.pdf" target="___blank">Resume</a>
+        
       </nav>
   </header>
 
   <!-- added img under nav section -->
   <section class="hero"></section>
-
+<main>
   <!-- this section contains my about me info -->
-  <section id="about-me">
+  <section class="section-area" id="about-me">
       <H2>About Me</H2>
+       <div>
         <p id="about-me-p">My name is Dominick and I am an aspiring web developer!  I am a hardworking person who likes to problem
           solve.  I do well when I work alone, however, I work well in groups!  I am easy to get along with since
           I have many hobbies including working out, video games, collecting trading cards, and playing with my dogs.
         </p>
+      </div>
   </section>
 
     <!-- this is the projects section that contains img of project -->
-    <section id="projects">
+    <section class="section-area" id="projects">
       <h2>Projects</h2>
-        <p class="project-img img-text">
+      <div class="div-container">
+        <!-- <p class="project-img img-text">
           <a href="https://dev-dominick.github.io/horiseon-accessibility-refactor/">
-          <img src="./assets/horiseon-screenshot.png" alt="Horiseon Project Refactor"></a>
-         
+          <img src="./assets/horiseon-screenshot.png" alt="Horiseon Project Refactor"></a> -->
+         <a href="#" class="box-item surf">
+           <div>
+             <h3>Surf Report</h3>
+             <span>HTML/CSS</span>
+           </div>
+         </a>
+         <a href="#" class="box-item led">
+          <div>
+            <h3>LED Wall</h3>
+            <span>HTML/CSS</span>
+          </div>
+        </a>
+        <a href="#" class="box-item calc">
+          <div>
+            <h3>Calculator</h3>
+            <span>HTML/CSS</span>
+          </div>
+        </a>
+        <a href="#" class="box-item puzzles">
+          <div>
+            <h3>Pastel Puzzles</h3>
+            <span>HTLM/CSS</span>
+          </div>
+        </a>
+        <a href="#" class="box-item buddy">
+          <div>
+            <h3>Run Buddy</h3>
+            <span>HTML/CSS</span>
+          </div>
+        </a>
         </p>
+      </div>
     </section>
 
     <!-- footer contains contact info -->
-    <footer id="contacts">
+    <section class="section-area" id="contacts">
       <h2>Contact Me</h2>
-        <ul class="contact-links">
-          <li><a class="footer-a" href="555-555-5555">555-555-5555</a></li>
-          <li><a class="footer-a" href="emailaddress@email.com">emailaddress@email.com</a></li>
-          <li><a class="footer-a" href="https://github.com/dev-dominick">github.com</a></li>
-        </ul>
-    </footer>
-
+        <address>
+          <a class="footer-a" href="555-555-5555">555-555-5555</a>
+          <a class="footer-a" href="emailaddress@email.com">emailaddress@email.com</a>
+          <a class="footer-a" href="https://github.com/dev-dominick">github.com</a>
+        </address>
+      </section>
+  </main>
 </body>
 
 </html>
