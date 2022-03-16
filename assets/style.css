@@ -175,6 +175,12 @@ nav a:hover {
     .box-item {
       flex-direction: row;
     }
+    h2 {
+      font-size: 30px;
+    }
+    .div-container {
+      flex-direction: column;
+    }
     
     
   }
