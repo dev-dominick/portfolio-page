@@ -1,324 +1,182 @@
 /* targeted overall elements */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    
-    font-family: "monospace", sans-serif;
-    line-height: 1.5;
-    /* font-size: 20px; */
-    background-color: #393e46;
-    color: white;
-    margin: 0;
-    padding: 0;
-  }
+  font-family: "monospace", sans-serif;
+  line-height: 1.5;
+  /* font-size: 20px; */
+  background-color: #393e46;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
 
-  h1
-
-  h2 {
+h1 h2 {
   margin: 0px;
-  }
-/* 
-  
-  .hero {
-    height: 300px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url(./nasa-Q1p7bh3SHj8-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-} */
+}
 
 /* adjustments for the header */
- header {
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     align-items: center;
-     padding: 5px 1%;
-     background-color: #393e46;
- }
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 1%;
+  background-color: #393e46;
+}
 
 /* removed bullet points for list items */
 nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 nav a {
-   color: white;
-   text-decoration: none;
-   list-style-type: none;
-   transition: all 0.3s ease 0s;
-   margin-right: 10px;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  transition: all 0.3s ease 0s;
+  margin-right: 10px;
 }
 
-  /* adjustments for my hero img */
-  .hero {
-    min-height: 30vh;
-    background-image: url(./nasa-Q1p7bh3SHj8-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+/* adjustments for my hero img */
+.hero {
+  min-height: 30vh;
+  background-image: url(./nasa-Q1p7bh3SHj8-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 main {
-    max-width: 89%;
-    margin: 20px auto 45px auto;
+  max-width: 89%;
+  margin: 20px auto 45px auto;
 }
 
 .section-area {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: stretch;
-    margin: 25px 0;
-    padding: 10px 0;
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 25px 0;
+  padding: 10px 0;
 }
 
 .section-area h2 {
-    flex: 0 0 20%;
-    text-align: right;
-    padding-right: 15px;
-    border-right: 4px solid olive;
-    font-size: 4vw;
-    line-height: 1.1;
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid olive;
+  font-size: 4vw;
+  line-height: 1.1;
 }
 
 .section-area div {
-    flex: 0 0 77%;
+  flex: 0 0 77%;
 }
 
 .section-area p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .div-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .box-item {
-    border: 5px solid olive;
-    background-color: white;
-    color: white;
-    min-height: 150px ;
-    max-height: 150px;
-    flex-basis: calc(50% - 1em);
-    display: flex;
-    align-items: flex-end;
-    padding: 0 0 20px 0;
-    margin: 0.5em;
-    text-decoration: none;
-    background-blend-mode: soft-light;
-    background-size: 150%;
-    transition: all 0.5s ;
-    font-size: 0.9rem;
+  border: 5px solid olive;
+  background-color: rgb(40, 40, 51);
+  color: white;
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+  
 }
 
 .box-item:first-child {
-    min-height: 400px;
-    flex-basis: 100%;
+  min-height: 400px;
+  flex-basis: 100%;
 }
 
 .box-item:hover {
-    background-color: white;
-
+  background-color: rgb(40, 40, 51);
 }
 
 .box-item div {
-    background-color: black;
-    padding: 8px 10px;
-    
+  background-color: black;
+  padding: 8px 10px;
+  
 }
 
 .box-item h3 {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
+}
+ 
+.box-item img {
+    max-width: 100%;
+    max-height: 100%;
+    
+   
 }
 
 
-
-
-
-
-/* .nav-links {
-   list-style: none;
- } */
-
- /* adjustments for nav links */
- /* .nav-links li {
-     display: inline-flex;
-     flex-direction: flex-end;
-     padding: 0px 20px;
- } */
-
- /* set a hover effect of olive over nav links */
- /* nav a {
-     transition: all 0.3s ease 0s;
- } */
-
- nav a:hover {
-   color: olive;
-   text-decoration: underline;
-   background-size: 100% 100%;
+nav a:hover {
+  color: olive;
+  text-decoration: underline;
+  background-size: 100% 100%;
 }
-
-/* controls flow of portfolio img */
-/* img {
-    display: flex;
-    flex-direction: row;
-    width: 750px;
-    margin-right: auto;
-    margin-left: auto;
-} */
-/* 
-#img-label {
-    position: absolute;
-} */
-/* 
-.project-img {
-    display: block;
-    justify-content: center;
-    margin: auto;
-    z-index: -1;
-}
-
-
-#about-me, #projects, #contacts {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    margin: 25px 0;
-
-    padding: 5px;
-    width: 100%;
-}
-
-#about-me>h1 {
-    flex: 0 0 20%;
-    text-align: right;
-    padding-right: 15px;
-    border-right: 4px solid;
-}
-
-#about-me-p {
-    margin-right: 100px;
-    margin-left: 250px;
-} */
-
 #contacts {
-    display: flex;
-     justify-content: space-between;
-     align-items: center;
-     padding: 5px 1%;
-     background-color: #393e46;
-     align-items: baseline;
-     
-}
-
-.contact-links {
-    display: inline-flex;
-    flex-direction: flex-end;
-    padding: 0px 20px;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 1%;
+  background-color: #393e46;
+  align-items: baseline;
 }
 
 .contact-links li a:hover {
-    color: olive;
-    text-decoration: underline;
- }
+  color: olive;
+  text-decoration: underline;
+}
 
-.footer-a {
-    margin: 10px 10px;
+.contact a{
+    font-family: monospace;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  transition: all 0.3s ease 0s;
+  margin-right: 10px;
 }
 
 /* adjusted screen contents of web page at certain screen widths */
-/* 
-@media screen and (max-width: 992px) {
-    .header {
-      flex-flow: column wrap;
-    }
-    #about-me {
-        flex-flow: column wrap;
-    }
-    #projects {
-        flex-flow: column wrap;
-    }
-    #contacts {
-        flex-flow: column wrap;
-    }
 
-    #about-me-p {
-        margin-right: 25%;
-        margin-left: 25%;
+@media screen and (max-width: 768px) {
+    .box-item {
+      flex-direction: row;
     }
-
-    h2 {
-        margin: auto;
-        padding-bottom: 20px;
-    }
-    .footer-a {
-        justify-content: space-between;
-        }
-
-    #contacts {
-        margin-right: 25%;
-        
-    }
-
-    .contact-links {
-        margin: auto;
-    }
+    
     
   }
-
-  @media screen and (max-width: 768px) {
-    .header {
-      flex-flow: column wrap;
-    }
-    #about-me {
-        flex-flow: column wrap;
-    }
-    #projects {
-        flex-flow: column wrap;
-    }
-    #contacts {
-        flex-flow: column wrap;
-    }
-
-    h2 {
-        margin: auto;
-        padding-bottom: 20px;
-    }
-    img {
-        width: 75%;
-    }
-    
-  } */
-
-
-
-
-
-
-
-
   
-
- 
-
-
-
 
