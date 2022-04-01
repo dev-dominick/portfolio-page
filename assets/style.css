@@ -193,7 +193,15 @@ nav a:hover {
   text-decoration: none;
   list-style-type: none;
   transition: all 0.3s ease 0s;
-  margin-right: 10px;
+  margin-right: 75px;
+  font-size: 20px;
+}
+
+address {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /* adjusted screen contents of web page at certain screen widths */
