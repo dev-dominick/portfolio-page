@@ -78,7 +78,7 @@ main {
   flex: 0 0 20%;
   text-align: right;
   padding-right: 15px;
-  border-right: 4px solid olive;
+  border-right: 4px solid green;
   font-size: 4vw;
   line-height: 1.1;
 }
@@ -98,7 +98,7 @@ main {
 }
 
 .box-item {
-  border: 5px solid olive;
+  border: 5px solid green;
   background-color: rgb(40, 40, 51);
   color: white;
   min-height: 150px;
@@ -160,7 +160,7 @@ main {
 }
 
 #project-4 {
-  background-image: url("./img/code-quiz.png");
+  background-image: url("");
   background-position: center center;
   background-size: cover;
 }
@@ -169,7 +169,7 @@ main {
 
 
 nav a:hover {
-  color: olive;
+  color: green;
   text-decoration: underline;
   background-size: 100% 100%;
 }
@@ -183,7 +183,7 @@ nav a:hover {
 }
 
 .contact-links li a:hover {
-  color: olive;
+  color: green;
   text-decoration: underline;
 }
 
