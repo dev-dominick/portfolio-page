@@ -2,7 +2,7 @@
 
 ## Description
 
-I was tasked with designing a personal portfolio using HTML and CSS. 
+I was tasked with designing a personal portfolio using HTML and CSS. I have updated my portfolio with projects I have done recently.
 
 ## Table of Contents
 
