@@ -142,28 +142,35 @@ main {
 }
 
 #project-1 {
-  background-image: url("./img/planner.png");
+  background-image: url("./img/project-1-pic.png");
   background-position: center center;
   background-size: cover;
 }
 
 #project-2 {
-  background-image: url("./img/password-generator.png");
+  background-image: url("./img/planner.png");
   background-position: center center;
   background-size: cover;
 }
 
 #project-3 {
-  background-image: url("./img/horiseon-screenshot.png");
+  background-image: url("./img/password-generator.png");
   background-position: center center;
   background-size: cover;
 }
 
 #project-4 {
-  background-image: url("");
+  background-image: url("./img/code-quiz.png");
   background-position: center center;
   background-size: cover;
 }
+
+#project-5 {
+  background-image: url("./img/horiseon-screenshot.png");
+  background-position: center center;
+  background-size: cover;
+}
+
 
 
 

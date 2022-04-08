@@ -14,16 +14,15 @@ I was tasked with designing a personal portfolio using HTML and CSS. I have upda
 
 ## Installation
 
-N/A
+No installation is required for this app.
 
 ## Usage
 
 
 https://dev-dominick.github.io/portfolio-page/
  
-![alt text](./assets/portfolio-1600px.png)
-![alt text](./assets/portfolio-992px.png)
-![alt text](./assets/portfolio-768px.png)
+![alt text](./assets/img/updated-portfolio.png)
+
 
 ## Credits
 
@@ -59,11 +58,11 @@ N/A
 
 ## Features
 
-N/A
+Mobile responsiveness, project sections have links to working projects.
 
 ## How to Contribute
 
-N/A
+Contact me / GitHub
 
 ## Tests
 
